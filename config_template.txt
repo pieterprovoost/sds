@@ -1,0 +1,9 @@
+[sensor]
+port = /dev/cu.wchusbserial141110
+location = office_pieter
+sleep = 1
+
+[mongodb]
+connection = mongodb+srv://<user>:<password>@<host>?retryWrites=true
+database = sds
+collection = measurements
